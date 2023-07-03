@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tapped</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="Images/logo.png" alt="Logo">
+                <span>
+                    Tapped
+                </span>
+
+            </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <!-- <h1>Media Player</h1> -->
+            <div>
+                <div class="songItem">
+                    <img src="Images/cover1.jpg" alt="1">
+                    <span class="songName">Aaj ke Baad</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">
+                            03:37
+                        </span>
+                        <i id= "1" class="fa songItemPlay fa-play"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="Images/cover2.jpg" alt="1">
+                    <span class="songName">Tum Kya Mile</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">
+                            03:37
+                        </span>
+                        <i id= "2" class="fa songItemPlay fa-play"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="Images/cover3.jpg" alt="1">
+                    <span class="songName">Obsessed</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">
+                            03:37
+                        </span>
+                        <i id= "3" class="fa songItemPlay fa-play"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="Images/cover4.jpg" alt="1">
+                    <span class="songName">Believer</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">
+                            03:24
+                        </span>
+                        <i id= "4" class="fa songItemPlay fa-play"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="Images/cover5.jpg" alt="1">
+                    <span class="songName">Enemy</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">
+                            03:34
+                        </span>
+                        <i id= "5" class="fa songItemPlay fa-play"></i>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="Images/cover6.jpg" alt="1">
+                    <span class="songName">Bones</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">
+                            02:24
+                        </span>
+                        <i id= "6" class="fa songItemPlay fa-play"></i>
+                    </span>
+                </div>
+        </div></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="ProgressBar" value ="0" min="0" max="100">
+        <div class="icons">
+            <i class="fa fa-step-backward" id="previous"></i>
+            <i class="fa fa-play" id="masterPlay"></i>
+            <i class="fa fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="Images/play.gif" width="42px" id="gif">
+            <span id="songName">Aaj Ke Baad</span>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
